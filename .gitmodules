@@ -1,0 +1,3 @@
+[submodule "lib/roboHardware"]
+	path = lib/roboHardware
+	url = https://github.com/IFRN-robotica-CM/robo_hardware.git
