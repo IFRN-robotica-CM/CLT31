@@ -1,7 +1,7 @@
 
 #define VEL_PARA_FRENTE 50
 
-#include <roboHardware.h>
+#include <robo_hardware2.h>
 
 class Movimento{
   private:
