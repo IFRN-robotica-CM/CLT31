@@ -1,5 +1,7 @@
 #include <robo_hardware2.h> 
 #include <Servo.h>
+# include "Movimento.h"
+
 
 //-----PINOS PARA LIGAR MOTORES-----//
 //Motor1:
@@ -26,33 +28,9 @@
 
 
 
-// bool bbbp(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq > DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir > DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir < DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool bbpb(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq > DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir < DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool bbpp(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq > DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir < DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir < DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool bpbb(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq < DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir > DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool bppb(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq < DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir < DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool bppp(){
-//   return (valorSensorMaisEsq > DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq < DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir < DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir < DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool pbbb(){
-//   return (valorSensorMaisEsq < DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq > DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir > DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool ppbb(){
-//   return (valorSensorMaisEsq < DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq < DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir > DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
-// bool pppb(){
-//   return (valorSensorMaisEsq < DIVISOR_BRANCO_PRETO_MAIS_ESQ && valorSensorEsq < DIVISOR_BRANCO_PRETO_ESQ && valorSensorDir < DIVISOR_BRANCO_PRETO_DIR && valorSensorMaisDir > DIVISOR_BRANCO_PRETO_MAIS_DIR);
-// }
+// 
+// 
+// 
 
 SensorReflet sensorlinha;
 Movimento movimento;
