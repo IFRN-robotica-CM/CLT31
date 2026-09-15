@@ -10,3 +10,6 @@
 [submodule "lib/adafruit"]
 	path = lib/adafruit
 	url = https://github.com/adafruit/Adafruit_BusIO.git
+[submodule "lib/VL53L0X"]
+	path = lib/VL53L0X
+	url = https://github.com/pololu/vl53l0x-arduino.git
