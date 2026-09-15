@@ -1,3 +1,6 @@
+#ifndef SENSOR_REFLET_H
+#define SENSOR_REFLET_H
+
 #define DIVISOR_BRANCO_PRETO_MAIS_ESQ 80
 #define DIVISOR_BRANCO_PRETO_ESQ 80
 #define DIVISOR_BRANCO_PRETO_DIR 70
@@ -41,3 +44,5 @@ class SensorReflet{
   void ler();
 
 };
+
+#endif
